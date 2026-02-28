@@ -1,0 +1,39 @@
+#1.
+vocareum--setup your lab environment
+
+#2.
+Local setup:
+Download python version: 3.10
+https://www.python.org/downloads/windows/
+
+1.work from command line> cmd > python --interpreter
+Note** we cant save anything here
+
+2.create a xyzfile.py
+  --write our code
+    print('welcome')
+    x = 20
+    print(x)
+    print(type(x))
+<save>
+from cmd > python xyzfile.py
+
+3. Jupyter
+   --follow instructions and download pip on your machine : https://jupyter.org/install
+   --pip install jupyter
+   --follow instructions and install jupyter lab and notebook and test it..
+  
+
+4. Install an IDE like visual studio
+    https://code.visualstudio.com/download
+    create a folder on your local machine
+    in VS code, open folder and click on settings > choose command palette and chose python interpreter
+
+5. Using cloud lab environment such as 
+   > google cloud account
+   > databricks trial account
+   > azure openai account
+   > upcloud
+
+
+    

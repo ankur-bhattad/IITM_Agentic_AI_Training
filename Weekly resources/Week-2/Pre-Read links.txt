@@ -1,0 +1,5 @@
+https://www.w3schools.com/python/python_variables.asp
+https://www.geeksforgeeks.org/python-data-types/
+https://www.programiz.com/python-programming/dictionary
+https://realpython.com/python-conditional-statements/
+https://www.w3schools.com/python/

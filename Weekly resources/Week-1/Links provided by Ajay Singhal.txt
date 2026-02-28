@@ -1,0 +1,6 @@
+https://code.visualstudio.com/download
+https://www.python.org/downloads/windows/
+https://jupyter.org/install
+https://github.com/ajaykuma/GenAI_GCP_HF_OpenAI_Databricks
+https://github.com/ajaykuma/PythonTests
+https://www.geeksforgeeks.org/installation-guide/how-to-install-pip-on-windows/
