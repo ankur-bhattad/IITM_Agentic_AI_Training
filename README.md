@@ -1,2 +1,2 @@
-# Agentic_AI_Training
+# IITM_Agentic_AI_Training
 Repository for IITM_Emeritus_Course_In_Agentic_AI_Material
