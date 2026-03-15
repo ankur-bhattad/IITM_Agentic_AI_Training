@@ -1,2 +1,2 @@
 https://realpython.com/python-data-structures
- https://www.dataquest.io/blog/data-structures-in-python
+https://www.dataquest.io/blog/data-structures-in-python

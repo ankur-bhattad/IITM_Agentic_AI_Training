@@ -1,0 +1,21 @@
+--create a dictionary using provided patients.json file content
+--task is to build a simple python based chatbot (as seen in example)
+
+
+--greet user
+--ask user to enter their name
+--check if name exists in the dictionary of patients
+--if Yes:
+  --ask for phone # and check if phone # exists
+  --if yes:
+       --ask for address and check if address exists
+       --if yes:
+            'thankyou for details, doctor if informed and will call you soon'
+         else:
+            get useraddress details and update in dictionary
+  --else:
+      --ask for phone #
+--else:
+   --asking user for name, address and phone
+   --update these details in dictionary
+   --print 'thankyou for details, doctor if informed and will call you soon'
