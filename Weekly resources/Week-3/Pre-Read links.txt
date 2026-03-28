@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/python/difference-between-matplotlib-vs-seaborn/
+https://pandas.pydata.org/docs/getting_started/index.html
+https://numpy.org/doc/stable/user/quickstart.html
