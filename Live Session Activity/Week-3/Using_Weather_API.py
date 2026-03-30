@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 #load_dotenv()
 load_dotenv("myapikeys\\.env")
 
-weather_api_key = os.getenv("WEATHER_API_KEY")
+weather_api_key = "2a829e613dacb48279c704f0f1823036"
 
 if not weather_api_key:
     raise ValueError("WEATHER_API_KEY not found in .env file")
