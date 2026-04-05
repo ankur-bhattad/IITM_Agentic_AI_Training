@@ -1,0 +1,14 @@
+https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks
+https://www.geeksforgeeks.org/machine-learning/types-of-machine-learning/
+https://towardsdatascience.com/neural-networks-intuitively-and-exhaustively-explained-0153f85c1007/
+https://spinningup.openai.com/en/latest/spinningup/rl_intro.html
+https://huggingface.co/docs/transformers/index
+
+Extended Learning:
+https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9686179/  : Understanding basic principles of artificial intelligence: a practical guide for intensivists
+https://scikit-learn.org/stable/user_guide.html    : Official documentation for scikit-learn, covering supervised, unsupervised, and semi-supervised algorithms with examples, API details, and guidance on real-world usage.
+https://towardsdatascience.com/understanding-optimization-algorithms-in-machine-learning-edfdb4df766b/
+https://www.deeplearningbook.org/
+https://d2l.ai/		: Dive into Deep Learning
+https://spinningup.openai.com/en/latest/	:Welcome to Spinning Up in Deep RL!
