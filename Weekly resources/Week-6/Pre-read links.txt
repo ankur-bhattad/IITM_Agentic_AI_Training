@@ -1,0 +1,8 @@
+https://arxiv.org/abs/1301.3781
+https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html
+https://arxiv.org/abs/1908.10084
+https://arxiv.org/abs/1810.04805
+https://arxiv.org/html/2406.01607v2
+https://arxiv.org/abs/2412.09165
+https://research.google/blog/muvera-making-multi-vector-retrieval-as-fast-as-single-vector-search/
+https://arxiv.org/html/2409.17383v1

@@ -1,0 +1,5 @@
+https://abhishek-reddy.medium.com/how-to-ace-an-llm-ai-engineering-interview-a-deep-dive-into-llm-fundamentals-fine-tuning-and-59f0e89060b7
+https://medium.com/@padmathanumoorthy/large-language-models-understanding-basics-llm-abilities-and-transformer-architecture-model-7e01d064659e
+https://www.ibm.com/think/topics/large-language-models
+
+https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
