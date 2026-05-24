@@ -1,0 +1,2 @@
+https://medium.com/@a.posoldova/comparing-4-agentic-frameworks-langgraph-crewai-autogen-and-strands-agents-b2d482691311
+https://docs.langchain.com/
