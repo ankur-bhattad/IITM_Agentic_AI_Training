@@ -1,0 +1,5 @@
+https://docs.crewai.com/en/installation
+https://www.ibm.com/think/topics/hierarchical-ai-agents
+https://docs.crewai.com/en/concepts/agents
+https://codewithpawan.medium.com/goal-oriented-ai-building-agents-that-plan-ahead-26f4085adce0
+https://overcoffee.medium.com/hierarchical-multi-agent-systems-concepts-and-operational-considerations-e06fff0bea8c

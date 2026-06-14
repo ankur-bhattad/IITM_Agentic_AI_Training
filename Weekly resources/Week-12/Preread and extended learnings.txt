@@ -1,0 +1,6 @@
+https://medium.com/@theshubhamgoel/demystifying-model-context-protocol-mcp-a-quick-guide-2f6d3ca5b8f1
+https://www.ibm.com/think/topics/model-context-protocol
+https://www.ibm.com/think/topics/agent2agent-protocol
+https://medium.com/@gokcerbelgusen/memory-types-in-agentic-ai-a-breakdown-523c980921ec
+https://modelcontextprotocol.io/docs/getting-started/intro
+https://cloud.google.com/discover/what-is-model-context-protocol?hl=en
