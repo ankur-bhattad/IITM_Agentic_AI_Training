@@ -4,3 +4,4 @@ https://www.ibm.com/think/topics/agent2agent-protocol
 https://medium.com/@gokcerbelgusen/memory-types-in-agentic-ai-a-breakdown-523c980921ec
 https://modelcontextprotocol.io/docs/getting-started/intro
 https://cloud.google.com/discover/what-is-model-context-protocol?hl=en
+https://adk.dev/a2a/intro/
