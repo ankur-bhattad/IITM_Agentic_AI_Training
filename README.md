@@ -9,37 +9,25 @@ This repository contains comprehensive learning materials, assignments, and proj
 ## 📁 Repository Structure
 
 ### 📖 Weekly Resources (`Weekly resources/`)
-Curated learning materials for each week of the course:
-- **Week-0** - Course Introduction & Fundamentals
-- **Week-1 through Week-12** - Weekly lecture materials and learning resources
-- **Masterclass on Retrieval** - Specialized masterclass on retrieval techniques
+Curated learning materials for each week of the course. 
+- Course Introduction & Fundamentals
+- Weekly lecture materials and learning resources
+- Specialized masterclass.
 
 Each week contains notebooks, code samples, and reference materials to support the learning objectives.
 
 ### 📝 Assignments (`Assignments/`)
 Weekly assignments designed to reinforce learning:
-- **Week-1** - Assignment 1
-- **Week-2** - Assignment 2
-- **Week-3** - Assignment 3
-- **Week-7** - Assignment 7
-- **Week-9** - Assignment 9
-- **Week-11** - Assignment 11
-
 Assignments include hands-on coding exercises and problem-solving activities aligned with the weekly topics.
 
 ### 🎯 Graded Projects (`Graded Projects/`)
-Comprehensive graded projects that assess learning outcomes:
-- **Week 4** - First Graded Project
-- **Week 6** - Second Graded Project
-- **Week 12** - Graded Project
-
+Comprehensive graded projects that assess learning outcomes.
 These projects involve building end-to-end agentic AI solutions and require submission of working code and documentation.
 
 ### 💻 Live Session Activity (`Live Session Activity/`)
 Interactive code and activity files from live sessions:
-- **Week-1 onwards** - Session-specific code and exercises
-- **Master Class on Retrieval** - Code from the retrieval masterclass
-- **utils.py** - Utility functions used across live sessions
+- Session-specific code and exercises
+- Code from the retrieval masterclass
 
 ## 🔧 Technology Stack
 
@@ -50,7 +38,7 @@ The course primarily uses:
 
 ## 📅 Current Progress
 
-The course is currently at **Week 12**. Materials are organized by week as they progress through the curriculum.
+The course is on going. Materials are organized by week as they progress through the curriculum.
 
 ## 🎓 Learning Outcomes
 
@@ -85,22 +73,7 @@ By completing this course, you will:
 
 This is a course material repository. For course-related questions or issues:
 - Review existing materials first
-- Check the course discussion forum
-- Reach out to course instructors
+- Reach out to repo owner
 
-## 📝 License
-
-Educational material for IITM Emeritus Course
-
-## 📞 Support
-
-For support and questions regarding the course:
-- Refer to weekly resources and documentation
-- Consult the live session recordings and code
-- Engage with course community and instructors
-
----
-
-**Current Week**: 12
 **Language**: Python (Jupyter Notebooks)
-**Last Updated**: June 2026
+
