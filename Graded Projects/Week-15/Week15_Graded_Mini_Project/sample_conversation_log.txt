@@ -1,0 +1,47 @@
+SAMPLE CONVERSATION LOG
+E-Commerce Domain Support Assistant (Amazon.in Help Documents)
+(Expected output — reflects the content of the real Amazon.in PDF documents in
+documents/. Regenerate with a real OPENAI_API_KEY by running
+ecommerce_rag_agent.ipynb or `streamlit run app.py` for an actual
+model-generated log to include in your submission.)
+
+------------------------------------------------------------
+Customer: Are products purchased by international customers eligible for returns?
+
+Bot: Products purchased by international customers are not eligible for
+returns. However, orders made by international customers are eligible for
+refunds, and customers will need to contact customer service within 5
+business days from the delivery date or estimated delivery date to claim a
+refund.
+------------------------------------------------------------
+Customer: What about refunds for those international orders instead?
+
+Bot: As mentioned, international orders are eligible for refunds even though
+they aren't eligible for returns. To claim a refund, you must contact
+customer service within 5 business days from the delivery date or estimated
+delivery date. Note that all product categories are non-returnable for
+international customers on export orders.
+------------------------------------------------------------
+Customer: What does the star inside the warranty shield icon mean?
+
+Bot: A star within the shield icon means the warranty icon enables you, as a
+customer, to claim the warranty through your Amazon account.
+------------------------------------------------------------
+Customer: And what does a tick inside that icon mean instead?
+
+Bot: A tick within the shield icon means the warranty will be provided by the
+manufacturer. If you reach out to the manufacturing brand and provide details
+from your invoice, the service center will schedule a convenient service slot
+for you.
+------------------------------------------------------------
+Customer: Why might my payment stay in a pending state?
+
+Bot: Your payment might remain pending if you paid using net banking and
+Amazon is awaiting payment confirmation from your bank (which can take up to
+a few days), if Amazon is unable to contact your bank or card issuer causing
+a delay, or if your initial payment attempt was unsuccessful.
+------------------------------------------------------------
+Customer: What is your company's stock ticker symbol?
+
+Bot: I don't have enough information in the provided documents.
+------------------------------------------------------------

@@ -1,0 +1,5 @@
+https://www.ibm.com/think/topics/rlhf
+https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/why-agents-are-the-next-frontier-of-generative-ai
+https://www.qlik.com/blog/from-static-to-adaptive-why-agentic-ai-is-the-future-of-enterprise-software
+https://blog.workday.com/en-us/continuous-learning-adapting-ai-agents-evolving-business-needs.html
+https://arxiv.org/abs/2411.11761

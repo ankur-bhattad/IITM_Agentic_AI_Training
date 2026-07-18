@@ -1,0 +1,11 @@
+# Core Dependencies
+openai>=1.40.0
+
+# Utilities
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Optional Enhancements
+streamlit>=1.38.0       # For interactive UI (optional)
+langchain>=0.2.11        # Optional if expanding to multi-agent architecture
+faiss-cpu>=1.8.0         # Optional for vector storage (future use)

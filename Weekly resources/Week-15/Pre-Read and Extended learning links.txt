@@ -1,0 +1,4 @@
+https://medium.com/@pinkal08cece/context-aware-retrieval-augmented-generation-rag-b9713a32c858
+https://www.ibm.com/think/topics/retrieval-augmented-generation
+https://levelup.gitconnected.com/building-a-self-improving-agentic-rag-system-f55003af44c4?gi=4dd34241d5b0
+https://medium.com/@shubhjoshi.93/the-evolution-of-rag-from-native-to-agentic-509085567ef1

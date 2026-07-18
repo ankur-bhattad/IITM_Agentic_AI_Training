@@ -1,0 +1,3 @@
+https://wittgeo.medium.com/ai-model-deployment-and-monitoring-f458a8a8c725
+https://www.stackmoxie.com/blog/best-practices-for-monitoring-ai-systems/
+https://www.adalovelaceinstitute.org/blog/post-deployment-monitoring-of-ai/
