@@ -1,0 +1,10 @@
+2025-11-10 20:56:47 | INFO | Starting Simple Agent Debug Demo
+2025-11-10 20:57:03 | INFO | Received query: Hi
+2025-11-10 20:57:03 | INFO | No valid tool found for this query
+2025-11-10 20:57:03 | INFO | Query completed in 0.00s
+
+{"timestamp": "2025-12-22 08:27:40", "level": "INFO", "message": "IT Support Agent API server starting up"}
+{"timestamp": "2025-12-22 09:40:45", "level": "INFO", "message": "Starting Simple Agent Debug Demo"}
+{"timestamp": "2025-12-22 09:50:55", "level": "INFO", "message": "Received support query: cal 20 * 35"}
+{"timestamp": "2025-12-22 09:50:55", "level": "INFO", "message": "Agent Reasoning: No specific IT tool identified. Providing general assistance."}
+{"timestamp": "2025-12-22 09:50:55", "level": "INFO", "message": "Query processed", "latency": "0.00s"}
