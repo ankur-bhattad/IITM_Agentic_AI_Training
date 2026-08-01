@@ -1,0 +1,7 @@
+https://medium.com/@sahin.samia/how-to-evaluate-ai-agents-metrics-benchmarks-and-real-world-practices-69a2674db899
+https://docs.langchain.com/oss/python/langchain/test/evals
+https://docs.langchain.com/langsmith/evaluate-complex-agent
+https://docs.langchain.com/langsmith/observability-concepts
+https://docs.langchain.com/langsmith/observability-quickstart
+https://docs.langchain.com/oss/python/langchain/observability
+https://docs.cloud.google.com/gemini-enterprise-agent-platform/machine-learning/model-monitoring/overview
