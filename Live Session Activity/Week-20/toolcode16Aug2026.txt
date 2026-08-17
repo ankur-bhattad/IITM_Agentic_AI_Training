@@ -1,0 +1,99 @@
+# from lfx.field_typing import Data
+from lfx.custom.custom_component.component import Component
+import requests
+from lfx.custom import Component
+from lfx.io import SecretStrInput, StrInput, Output
+from langchain_core.tools import Tool
+
+
+class OpenWeatherMapToolComponent(Component):
+    display_name = "OpenWeatherMap Tool"
+    description = "Fetches real-time weather details (in metric / °C) for any city using OpenWeatherMap API."
+    icon = "sun"
+    name = "OpenWeatherMapTool"
+
+    # Only expose API Key and optional Default City in the UI
+    inputs = [
+        SecretStrInput(
+            name="api_key",
+            display_name="OpenWeatherMap API Key",
+            info="Your OpenWeatherMap API key.",
+            value="",
+            required=False,
+        ),
+        StrInput(
+            name="default_city",
+            display_name="Default City",
+            info="Optional fallback city if prompt does not specify one.",
+            value="London",
+        ),
+    ]
+
+    # Output port for Langflow Agents
+    outputs = [
+        Output(
+            display_name="Tool",
+            name="tool",
+            method="build_tool",
+        ),
+    ]
+
+    def fetch_weather(self, city: str) -> str:
+        """Queries OpenWeatherMap API standardized to metric units (°C, m/s)."""
+        # Fallback to hardcoded key if UI field is cleared
+        api_key = self.api_key or ""
+        
+        # Standardized to metric
+        units = "metric"
+        unit_symbol = "°C"
+
+        target_city = city.strip() if city else self.default_city
+        url = "https://api.openweathermap.org/data/2.5/weather"
+        params = {
+            "q": target_city,
+            "appid": api_key,
+            "units": units
+        }
+
+        try:
+            response = requests.get(url, params=params, timeout=10)
+            
+            if response.status_code == 404:
+                return f"City '{target_city}' not found. Please check spelling."
+            elif response.status_code == 401:
+                return "Error: Invalid or unactivated OpenWeatherMap API Key."
+            elif response.status_code != 200:
+                return f"API Error ({response.status_code}): {response.text}"
+
+            data = response.json()
+            
+            # Extract key weather variables
+            temp = data["main"]["temp"]
+            feels_like = data["main"]["feels_like"]
+            humidity = data["main"]["humidity"]
+            description = data["weather"][0]["description"].capitalize()
+            wind_speed = data["wind"]["speed"]
+            country = data["sys"].get("country", "")
+
+            return (
+                f"Weather in {target_city.title()}, {country}:\n"
+                f"• Condition: {description}\n"
+                f"• Temperature: {temp}{unit_symbol} (Feels like {feels_like}{unit_symbol})\n"
+                f"• Humidity: {humidity}%\n"
+                f"• Wind Speed: {wind_speed} m/s"
+            )
+
+        except requests.exceptions.RequestException as e:
+            return f"Network error connecting to OpenWeatherMap: {str(e)}"
+
+    def build_tool(self) -> Tool:
+        """Wraps fetch_weather into a LangChain Tool for Langflow Agents."""
+        return Tool(
+            name="get_weather",
+            description=(
+                "Use this tool to fetch current live weather information (temperature in °C, "
+                "humidity, wind speed, and weather condition) for any specified city. "
+                "Input must be a city name (e.g., 'Paris', 'Tokyo')."
+            ),
+            func=self.fetch_weather,
+        )
