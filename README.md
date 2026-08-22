@@ -60,28 +60,523 @@ Interactive code, exercises, and demonstrations from live sessions organized by 
 
 ## 📚 Detailed Weekly Content Summary
 
-| **Week** | **Title** | **Pillar** | **Key Concepts** | **Technologies & Tools** | **Learning Outcomes** |
-|----------|-----------|-----------|------------------|------------------------|-----------------------|
-| **Week 1** | Getting Started with Python & ChatGPT | Pillar 1: Python Foundations | Python environment setup, ChatGPT & LLMs, Prompt engineering fundamentals, API integration | Python 3.10+, OpenAI API, Jupyter Notebooks, Virtual environments | Set up Python dev environment, Make API calls to ChatGPT, Understand prompt structure, Run & modify code examples |
-| **Week 2** | Data Types, Variables, Control Flow & Functions | Pillar 1: Python Foundations | Python data types, Variable assignment, Control flow (if/else, loops), Function definition, Error handling | Python built-ins, List/dict comprehensions, Exception handling | Work with data structures, Write reusable functions, Handle control flow, Implement error handling |
-| **Week 3** | Working with Libraries | Pillar 1: Python Foundations | Popular libraries (NumPy, Pandas, Requests), Dependency management, Working with APIs, Data manipulation | NumPy, Pandas, Requests, pip & package management | Install & use external libraries, Perform data manipulation, Make API requests, Work with structured data |
-| **Week 4** | Fundamentals of AI & ML | Pillar 1: Python Foundations | ML basics (supervised/unsupervised), Classification & regression, Train-test split, Neural networks intro, Evaluation metrics | Scikit-learn, Model training & evaluation, Hyperparameter tuning | Build & train ML models, Evaluate performance, Understand ML workflow, Apply concepts to real-world problems |
-| **Week 5** | Large Language Models (LLMs) | Pillar 2: Core AI Concepts | How LLMs work (transformers), Model scaling & emergence, Tokenization & embeddings, Fine-tuning vs. prompt engineering, Token limits | OpenAI API (GPT-4o-mini, embeddings), Tokenization libraries, Embedding models | Understand LLM capabilities & limitations, Work with embeddings, Optimize prompts, Manage API usage & costs |
-| **Week 6** | Embedding Models & Vector Basics | Pillar 2: Core AI Concepts | Vector representations, Semantic similarity, Vector databases & indexing, Similarity search, Dimensionality | OpenAI embeddings, FAISS, Vector similarity metrics, Vector DB basics | Generate & work with embeddings, Implement semantic search, Index large vector datasets, Measure semantic similarity |
-| **Week 7** | Agentic Tools in Python | Pillar 3: Introduction to Agentic AI | Tool definition & design, Function calling/tool use, Error handling in tools, Stateless vs. stateful tools, Tool composition | LangChain tool decorators, Tool frameworks, Function schema generation, Tool validation | Define & implement custom tools, Integrate with LLM function calling, Handle errors gracefully, Chain multiple tools |
-| **Week 8** | Introduction to Agentic AI | Pillar 3: Introduction to Agentic AI | What is an agent, Agent loop & reasoning cycle, Perception-reasoning-action, Agent vs. chatbot, Design patterns | Agent frameworks, LangChain agents (ReAct), Agent state management, LLM as reasoning engine | Understand agent architecture, Build first autonomous agent, Implement perception-reasoning-action loop, Design workflows |
-| **Week 9** | Programming & Frameworks for Agentic Systems | Pillar 3: Introduction to Agentic AI | Agentic frameworks & libraries, Orchestration & workflow design, Agent memory & context, Asynchronous operations, Production considerations | LangChain orchestration, AutoGen, FastAPI, Message queues | Use agentic frameworks, Design complex workflows, Implement memory systems, Deploy at scale |
-| **Week 10** | Agent Architectures & Collaboration | Pillar 3: Introduction to Agentic AI | Single-agent architectures (ReAct), Multi-agent systems, Agent specialization & roles, Inter-agent communication, Hierarchical structures | LangChain hierarchical agents, AutoGen, Agent protocols, Supervision patterns | Design single & multi-agent systems, Implement collaboration, Debug interactions, Scale systems |
-| **Week 11** | Decision-Making & Planning in Agents | Pillar 4: Advanced Agent Patterns | Goal decomposition & planning, Tree-of-thought & CoT reasoning, Decision trees & state management, Constraint satisfaction, Exploration vs. exploitation | Planning algorithms (BFS, DFS, A*), LLM-based planning, State space exploration, Constraint frameworks | Implement goal decomposition, Use reasoning strategies, Design decision-making systems, Handle complex planning |
-| **Week 12** | Memory & Knowledge Retrieval in Agents with MCP | Pillar 4: Advanced Agent Patterns | Short-term vs. long-term memory, Memory types (episodic, semantic, procedural), Knowledge graphs, Information retrieval, Model Context Protocol | Vector stores, Knowledge graphs (Neo4j), MCP servers & clients, Memory optimization | Build memory systems, Integrate knowledge bases, Use MCP for tool integration, Implement efficient retrieval |
-| **Week 13** | Prompt Engineering & Adaptive Instructions (Streamlit) | Pillar 4: Advanced Agent Patterns | Advanced prompting techniques, Few-shot & zero-shot, Instruction tuning, Dynamic adaptation, Instruction formatting & CoT | Prompt frameworks, Streamlit, Prompt versioning & testing, Few-shot selection | Master advanced prompting, Create adaptive systems, Build interactive UIs, Evaluate prompt effectiveness |
-| **Week 14** | Learning & Adaptation in Agents | Pillar 4: Advanced Agent Patterns | Agent self-improvement, Feedback loops & iterative refinement, Fine-tuning vs. in-context learning, Reinforcement learning from feedback, Continuous evolution | RLHF, Model fine-tuning APIs, Feedback collection, Evaluation metrics | Implement feedback loops, Enable self-improvement, Evaluate & iterate, Deploy continuously improving agents |
-| **Week 15** | Advanced Retrieval-Augmented Generation (RAG) | Pillar 5: Advanced Agentic Systems | RAG architecture & workflow, Document chunking & embedding strategies, Retrieval optimization & ranking, Hybrid search (BM25 + semantic), Multi-document reasoning, Domain-specific RAG | FAISS, LangChain RAG chains, Document loaders (PDF, web), Hybrid strategies, Multi-hop retrieval | Build production-grade RAG, Optimize retrieval quality, Handle complex scenarios, Implement multi-turn RAG, Create domain assistants |
-| **Week 16** | Deploying & Monitoring Agentic Systems | Pillar 5: Advanced Agentic Systems | Production deployment patterns, API design (FastAPI, REST), Monitoring & observability, Performance metrics & SLAs, Logging & tracing (LangSmith), Cost optimization | FastAPI, LangSmith, Structured logging (JSON), Monitoring dashboards, Docker, Load balancing | Deploy to production, Implement monitoring, Optimize performance, Handle production issues, Scale systems |
-| **Week 17** | Agent Evaluation & Debugging | Pillar 5: Advanced Agentic Systems | Agent evaluation metrics, Debugging failures, Tracing & introspection, Error analysis & RCA, Regression testing, Behavior validation | LangSmith debugging, Structured logging, Evaluation frameworks, Unit testing, Integration testing | Evaluate systematically, Debug failures, Implement testing, Monitor health in production, Conduct RCA |
-| **Week 18** | Ethics, Safety & Governance in Agentic AI | Pillar 6: Responsible AI & Applications | AI ethics frameworks, Bias detection & mitigation, Safety guardrails & constraints, Transparency & explainability, Responsible AI principles, Regulatory compliance | Safety validation frameworks, Bias detection tools, Adversarial testing, Governance frameworks | Build ethical systems, Implement guardrails, Detect & mitigate bias, Ensure transparency, Manage compliance |
-| **Week 19** | Real-World Applications & Case Studies | Pillar 6: Responsible AI & Applications | Industry use cases (customer support, HR, finance, healthcare), Domain-specific design, Real-world constraints, Case study analysis, ROI & business impact | Domain-specific integrations, API connectors (Salesforce, Slack), Industry-specific RAG patterns | Apply to real domains, Design for business needs, Understand constraints, Learn from case studies, Calculate ROI |
-| **Week 20** | Low-Code Tools Deep Dive | Pillar 6: Responsible AI & Applications | Low-code platforms, Visual workflow builders, No-code solutions, Integration platforms, Rapid prototyping & deployment | Low-code platforms, Visual builders, Integration marketplaces, Template-based solutions | Use low-code tools, Build without extensive coding, Leverage integrations, Accelerate time-to-market |
+| **Week** | **Title** | **Pillar** |
+|----------|-----------|-----------|
+| **Week 1** | Getting Started with Python & ChatGPT | Pillar 1: Python Foundations |
+| **Week 2** | Data Types, Variables, Control Flow & Functions | Pillar 1: Python Foundations |
+| **Week 3** | Working with Libraries | Pillar 1: Python Foundations |
+| **Week 4** | Fundamentals of AI & ML | Pillar 1: Python Foundations |
+| **Week 5** | Large Language Models (LLMs) | Pillar 2: Core AI Concepts |
+| **Week 6** | Embedding Models & Vector Basics | Pillar 2: Core AI Concepts |
+| **Week 7** | Agentic Tools in Python | Pillar 3: Introduction to Agentic AI |
+| **Week 8** | Introduction to Agentic AI | Pillar 3: Introduction to Agentic AI |
+| **Week 9** | Programming & Frameworks for Agentic Systems | Pillar 3: Introduction to Agentic AI |
+| **Week 10** | Agent Architectures & Collaboration | Pillar 3: Introduction to Agentic AI |
+| **Week 11** | Decision-Making & Planning in Agents | Pillar 4: Advanced Agent Patterns |
+| **Week 12** | Memory & Knowledge Retrieval in Agents with MCP | Pillar 4: Advanced Agent Patterns |
+| **Week 13** | Prompt Engineering & Adaptive Instructions (Streamlit) | Pillar 4: Advanced Agent Patterns |
+| **Week 14** | Learning & Adaptation in Agents | Pillar 4: Advanced Agent Patterns |
+| **Week 15** | Advanced Retrieval-Augmented Generation (RAG) | Pillar 5: Advanced Agentic Systems |
+| **Week 16** | Deploying & Monitoring Agentic Systems | Pillar 5: Advanced Agentic Systems |
+| **Week 17** | Agent Evaluation & Debugging | Pillar 5: Advanced Agentic Systems |
+| **Week 18** | Ethics, Safety & Governance in Agentic AI | Pillar 6: Responsible AI & Applications |
+| **Week 19** | Real-World Applications & Case Studies | Pillar 6: Responsible AI & Applications |
+| **Week 20** | Low-Code Tools Deep Dive | Pillar 6: Responsible AI & Applications |
+
+### **Week 1: Getting Started with Python & ChatGPT**
+
+**Key Concepts:**
+- Python environment setup
+- ChatGPT & LLMs fundamentals
+- Prompt engineering basics
+- API integration
+
+**Technologies & Tools:**
+- Python 3.10+
+- OpenAI API
+- Jupyter Notebooks
+- pip & virtual environments
+
+**Learning Outcomes:**
+- Set up Python development environment
+- Understand LLM capabilities and limitations
+- Write effective prompts
+- Integrate OpenAI API into Python scripts
+
+---
+
+### **Week 2: Data Types, Variables, Control Flow & Functions**
+
+**Key Concepts:**
+- Python data types (int, float, str, list, dict, tuple)
+- Variable assignment and scoping
+- Control flow (if/else, loops)
+- Function definition and parameters
+- Error handling basics
+
+**Technologies & Tools:**
+- Python standard library
+- Jupyter Notebooks
+- IDE/Text editor
+- Python debugger (pdb)
+
+**Learning Outcomes:**
+- Master Python data structures
+- Write clean, reusable functions
+- Implement robust error handling
+- Debug Python code effectively
+
+---
+
+### **Week 3: Working with Libraries**
+
+**Key Concepts:**
+- Popular libraries (NumPy, Pandas, Requests)
+- Dependency management and pip
+- Working with APIs
+- Data manipulation and analysis
+- File I/O operations
+
+**Technologies & Tools:**
+- NumPy
+- Pandas
+- Requests
+- pip & requirements.txt
+- JSON/CSV file formats
+
+**Learning Outcomes:**
+- Leverage NumPy for numerical computing
+- Manipulate data with Pandas
+- Make API requests with Requests
+- Manage project dependencies effectively
+
+---
+
+### **Week 4: Fundamentals of AI & ML**
+
+**Key Concepts:**
+- Supervised vs. unsupervised learning
+- Classification & regression tasks
+- Train-test split
+- Neural networks introduction
+- Evaluation metrics (accuracy, precision, recall, F1)
+
+**Technologies & Tools:**
+- scikit-learn
+- TensorFlow/Keras
+- Matplotlib for visualization
+- NumPy & Pandas
+- ML workflow tools
+
+**Learning Outcomes:**
+- Understand ML fundamentals
+- Build and evaluate classification models
+- Implement train-test split correctly
+- Understand neural network basics
+
+---
+
+### **Week 5: Large Language Models (LLMs)**
+
+**Key Concepts:**
+- How LLMs work (transformers architecture)
+- Model scaling and emergence
+- Tokenization and embeddings
+- Fine-tuning vs. prompt engineering
+- Token limits and cost optimization
+
+**Technologies & Tools:**
+- OpenAI API (GPT-4, GPT-3.5)
+- Hugging Face Transformers
+- Tokenizers
+- TensorFlow/PyTorch
+- LangChain
+
+**Learning Outcomes:**
+- Understand transformer architecture fundamentals
+- Work with embeddings effectively
+- Optimize prompts for LLMs
+- Calculate and manage token usage
+- Understand fine-tuning trade-offs
+
+---
+
+### **Week 6: Embedding Models & Vector Basics**
+
+**Key Concepts:**
+- Vector representations of text
+- Semantic similarity concepts
+- Vector databases and indexing
+- Similarity search algorithms
+- Dimensionality reduction
+
+**Technologies & Tools:**
+- OpenAI Embeddings API
+- FAISS (Facebook AI Similarity Search)
+- Pinecone
+- Weaviate
+- NumPy for vector operations
+
+**Learning Outcomes:**
+- Create embeddings for text
+- Understand vector similarity metrics
+- Build vector databases
+- Implement semantic search
+- Optimize vector indexing
+
+---
+
+### **Week 7: Agentic Tools in Python**
+
+**Key Concepts:**
+- Tool definition and design patterns
+- Function calling and tool use
+- Error handling in tool execution
+- Stateless vs. stateful tools
+- Tool composition and chaining
+
+**Technologies & Tools:**
+- Python functions & decorators
+- Type hints & pydantic
+- LangChain Tools
+- FastAPI for tool APIs
+- JSON schema validation
+
+**Learning Outcomes:**
+- Design reusable tools
+- Implement proper error handling
+- Create tool interfaces with type safety
+- Chain tools together
+- Document tools effectively
+
+---
+
+### **Week 8: Introduction to Agentic AI**
+
+**Key Concepts:**
+- What is an agent?
+- Agent loop and reasoning cycle
+- Perception-reasoning-action paradigm
+- Agent vs. chatbot differences
+- Common design patterns
+
+**Technologies & Tools:**
+- LangChain Agents
+- AutoGen
+- LLMs (GPT-4, Claude)
+- Agent frameworks
+- Logging and debugging tools
+
+**Learning Outcomes:**
+- Understand agent architecture
+- Implement basic agent loops
+- Distinguish agents from chatbots
+- Apply common agent design patterns
+- Debug agent behavior
+
+---
+
+### **Week 9: Programming & Frameworks for Agentic Systems**
+
+**Key Concepts:**
+- Agentic frameworks & libraries
+- Orchestration and workflow design
+- Agent memory and context management
+- Asynchronous programming for agents
+- State management
+
+**Technologies & Tools:**
+- LangChain
+- AutoGen
+- Crew AI
+- FastAPI
+- AsyncIO & concurrent.futures
+- Redis for state management
+
+**Learning Outcomes:**
+- Select and use appropriate frameworks
+- Design agent workflows
+- Implement agent memory systems
+- Write async agent code
+- Manage agent state effectively
+
+---
+
+### **Week 10: Agent Architectures & Collaboration**
+
+**Key Concepts:**
+- Single-agent architectures (ReAct)
+- Multi-agent systems
+- Agent specialization and roles
+- Inter-agent communication
+- Collaboration patterns
+
+**Technologies & Tools:**
+- LangChain Agent architectures
+- AutoGen multi-agent systems
+- Message passing systems
+- Pub-Sub patterns
+- Agent communication protocols
+
+**Learning Outcomes:**
+- Design single and multi-agent systems
+- Implement agent roles
+- Enable agent communication
+- Handle inter-agent coordination
+- Scale agent systems
+
+---
+
+### **Week 11: Decision-Making & Planning in Agents**
+
+**Key Concepts:**
+- Goal decomposition and planning
+- Tree-of-thought reasoning
+- Chain-of-thought (CoT) reasoning
+- Decision trees and state machines
+- Constraint satisfaction
+
+**Technologies & Tools:**
+- LangChain planning chains
+- Tree-of-thought libraries
+- Decision tree frameworks
+- State machine libraries
+- Constraint programming
+
+**Learning Outcomes:**
+- Implement planning algorithms
+- Use reasoning frameworks effectively
+- Handle complex decision-making
+- Decompose goals hierarchically
+- Apply constraints to agent decisions
+
+---
+
+### **Week 12: Memory & Knowledge Retrieval in Agents with MCP**
+
+**Key Concepts:**
+- Short-term vs. long-term memory
+- Memory types (episodic, semantic, procedural)
+- Knowledge graphs
+- Model Context Protocol (MCP)
+- Information retrieval techniques
+
+**Technologies & Tools:**
+- LangChain Memory modules
+- FAISS & vector databases
+- Neo4j for knowledge graphs
+- Model Context Protocol (MCP)
+- LangSmith for memory management
+
+**Learning Outcomes:**
+- Implement memory systems
+- Use knowledge graphs effectively
+- Integrate MCP for context
+- Build retrieval systems
+- Manage memory efficiency
+
+---
+
+### **Week 13: Prompt Engineering & Adaptive Instructions (Streamlit)**
+
+**Key Concepts:**
+- Advanced prompting techniques
+- Few-shot and zero-shot learning
+- Instruction tuning
+- Dynamic prompt adaptation
+- Prompt templates and versioning
+
+**Technologies & Tools:**
+- Streamlit
+- Prompt templates (LangChain)
+- LLMs (GPT-4, Claude)
+- Jinja2 templating
+- Prompt management tools
+
+**Learning Outcomes:**
+- Write effective system prompts
+- Apply few-shot learning
+- Create dynamic prompts
+- Build interactive prompt tools
+- Version and test prompts
+
+---
+
+### **Week 14: Learning & Adaptation in Agents**
+
+**Key Concepts:**
+- Agent self-improvement
+- Feedback loops and iterative refinement
+- Fine-tuning vs. in-context learning
+- Reinforcement learning basics
+- Online learning strategies
+
+**Technologies & Tools:**
+- LangChain feedback loops
+- LangSmith for evaluation
+- Fine-tuning APIs
+- Reinforcement learning libraries
+- Experiment tracking tools
+
+**Learning Outcomes:**
+- Implement feedback mechanisms
+- Build iterative improvement systems
+- Choose between fine-tuning approaches
+- Apply reinforcement learning
+- Track agent improvements
+
+---
+
+### **Week 15: Advanced Retrieval-Augmented Generation (RAG)**
+
+**Key Concepts:**
+- RAG architecture and workflow
+- Document chunking strategies
+- Embedding strategies
+- Retrieval optimization and ranking
+- Evaluation metrics for RAG
+
+**Technologies & Tools:**
+- LangChain RAG chains
+- FAISS & Pinecone
+- Document loaders (PyMuPDF)
+- Embedding models (OpenAI, Ollama)
+- Streamlit for UI
+- Evaluation frameworks
+
+**Learning Outcomes:**
+- Build end-to-end RAG systems
+- Optimize document retrieval
+- Implement hybrid search
+- Evaluate RAG performance
+- Handle multi-document queries
+
+---
+
+### **Week 16: Deploying & Monitoring Agentic Systems**
+
+**Key Concepts:**
+- Production deployment patterns
+- API design (FastAPI, REST)
+- Monitoring and observability
+- Performance metrics
+- Scaling strategies
+
+**Technologies & Tools:**
+- FastAPI
+- Docker
+- LangSmith for observability
+- Logging frameworks
+- Monitoring tools (Prometheus, Grafana)
+- Cloud deployment (AWS, GCP, Azure)
+
+**Learning Outcomes:**
+- Deploy agents to production
+- Design scalable APIs
+- Implement observability
+- Monitor agent performance
+- Scale systems effectively
+
+---
+
+### **Week 17: Agent Evaluation & Debugging**
+
+**Key Concepts:**
+- Agent evaluation metrics
+- Debugging failures and issues
+- Tracing and introspection
+- Error analysis and root cause analysis (RCA)
+- Regression testing
+
+**Technologies & Tools:**
+- LangSmith tracing
+- Custom evaluation frameworks
+- Logging and debugging tools
+- Error analysis tools
+- Testing frameworks (pytest)
+- Visualization tools
+
+**Learning Outcomes:**
+- Evaluate agent performance
+- Debug complex agent issues
+- Implement tracing systems
+- Perform root cause analysis
+- Build regression test suites
+
+---
+
+### **Week 18: Ethics, Safety & Governance in Agentic AI**
+
+**Key Concepts:**
+- AI ethics frameworks
+- Bias detection and mitigation
+- Safety guardrails and constraints
+- Transparency and explainability
+- Regulatory compliance
+
+**Technologies & Tools:**
+- AI ethics toolkits
+- Bias detection libraries
+- Safety guardrail frameworks
+- Audit logging systems
+- Compliance tools
+
+**Learning Outcomes:**
+- Apply ethics frameworks
+- Detect and mitigate bias
+- Implement safety guardrails
+- Ensure transparency
+- Meet regulatory requirements
+
+---
+
+### **Week 19: Real-World Applications & Case Studies**
+
+**Key Concepts:**
+- Industry use cases (customer support, HR, finance, healthcare)
+- Domain-specific design
+- Real-world challenges and solutions
+- Case study analysis
+- Lessons learned
+
+**Technologies & Tools:**
+- Domain-specific APIs
+- Integration platforms
+- Industry tools and frameworks
+- Case study resources
+- Real-world datasets
+
+**Learning Outcomes:**
+- Apply agents to real domains
+- Solve domain-specific challenges
+- Analyze real-world case studies
+- Design domain-specific agents
+- Handle production edge cases
+
+---
+
+### **Week 20: Low-Code Tools Deep Dive**
+
+**Key Concepts:**
+- Low-code platforms and tools
+- Visual workflow builders
+- No-code solutions
+- Integration platforms
+- Rapid prototyping and deployment
+
+**Technologies & Tools:**
+- Low-code platforms (Make.com, Zapier)
+- Visual builders (Flowise, n8n)
+- No-code tools
+- Integration APIs
+- Rapid deployment frameworks
+
+**Learning Outcomes:**
+- Use low-code platforms effectively
+- Build workflows visually
+- Integrate systems easily
+- Prototype quickly
+- Deploy without coding
 
 ---
 
