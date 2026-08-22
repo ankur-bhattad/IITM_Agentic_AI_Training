@@ -4,9 +4,9 @@ Repository for IITM Emeritus Course In Agentic AI Material
 
 ## 📚 Course Overview
 
-This repository contains comprehensive learning materials, assignments, projects, and live session activities for the IITM Emeritus Course in Agentic AI. The course is actively ongoing, with weekly resources, assignments, live session activities, and graded projects being added progressively.
+This repository contains comprehensive learning materials, assignments, projects, and live session activities for the IITM Emeritus Course in Agentic AI. The course is actively ongoing, with weekly releases covering fundamentals through advanced production-ready systems.
 
-**Latest Update**: Course materials now include weeks 1-16 with advanced topics in agent deployment, observability, and production-ready systems.
+**Latest Update**: Expanded course materials now include weeks 1-20+ with advanced topics in agent deployment, observability, production systems, debugging frameworks, and specialized agentic applications.
 
 ## 📁 Repository Structure
 
@@ -16,6 +16,7 @@ Curated learning materials for each week of the course covering:
 - Agent Architecture & Design (Weeks 5-8)
 - Advanced Techniques & LLM Integration (Weeks 9-12)
 - Retrieval-Augmented Generation & Production Systems (Weeks 13-16)
+- Advanced Debugging & Agentic Workflows (Weeks 17-20)
 - Specialized masterclass materials
 
 Each week contains:
@@ -26,10 +27,10 @@ Each week contains:
 
 ### 📝 Assignments (`Assignments/`)
 Weekly assignments designed to reinforce learning and build practical skills:
-- Weeks 1-16 hands-on coding exercises
+- Weeks 1-20 hands-on coding exercises
 - Problem-solving activities aligned with weekly topics
 - Progressive complexity building from fundamentals to advanced production patterns
-- Assignments for core concepts, agent building, RAG systems, and deployment strategies
+- Assignments for core concepts, agent building, RAG systems, debugging strategies, and deployment strategies
 
 ### 🎯 Graded Projects (`Graded Projects/`)
 Comprehensive graded projects that assess learning outcomes:
@@ -52,6 +53,10 @@ Interactive code, exercises, and demonstrations from live sessions organized by 
 - Retrieval masterclass materials
 - Week 16 includes:
   - **Operational Agent API**: Production-ready reference implementation demonstrating deployment, monitoring, observability with LangSmith integration, structured logging, and evaluation patterns
+- Week 17+ includes:
+  - **Industry-Grade IT Support Agent (FastAPI)**: End-to-end agentic workflow with service monitoring, log analysis, and escalation management
+  - **Advanced Debugging Frameworks**: Techniques for troubleshooting complex agent workflows
+  - **Specialized Agentic Applications**: Domain-specific agent implementations
 
 ## 🔧 Technology Stack
 
@@ -68,13 +73,14 @@ The course uses:
 
 ## 📅 Current Progress
 
-**Course Status**: Actively ongoing (16+ weeks completed)
+**Course Status**: Actively ongoing (20+ weeks completed)
 
 The course covers:
 - **Weeks 1-4**: Fundamentals & Core Concepts
 - **Weeks 5-8**: Agent Architectures (LangChain, AutoGen)
 - **Weeks 9-12**: Advanced Agent Patterns & RAG Implementation
 - **Weeks 13-16**: Production Systems, Observability, and Deployment
+- **Weeks 17-20**: Advanced Debugging, Agentic Workflows, and Specialized Applications
 
 Materials are progressively released week by week as the course advances.
 
@@ -89,6 +95,8 @@ By completing this course, you will:
 - ✅ Apply best practices in production environments
 - ✅ Evaluate and iterate on agent performance
 - ✅ Handle context awareness and multi-turn conversations
+- ✅ Debug and troubleshoot complex agentic workflows
+- ✅ Build specialized domain-specific agents
 
 ## 🚀 Getting Started
 
@@ -140,6 +148,7 @@ By completing this course, you will:
 5. **Review Advanced Sessions**: Study live session activities and masterclass materials for industry best practices
 6. **Iterative Learning**: Reference earlier weeks when building on advanced concepts
 7. **Observability**: Use provided tools (LangSmith) to monitor and debug your agents
+8. **Debug Systematically**: Apply debugging frameworks from later weeks to troubleshoot complex issues
 
 ## 🔒 Security Best Practices
 
@@ -159,9 +168,9 @@ For course-related questions or issues:
 ## 📊 Repository Statistics
 
 - **Language**: Python (Jupyter Notebooks primarily)
-- **Repository Size**: ~62 MB
+- **Repository Size**: ~80 MB
 - **License**: See individual project documentation
-- **Last Updated**: July 18, 2026
+- **Last Updated**: August 17, 2026
 
 ---
 
