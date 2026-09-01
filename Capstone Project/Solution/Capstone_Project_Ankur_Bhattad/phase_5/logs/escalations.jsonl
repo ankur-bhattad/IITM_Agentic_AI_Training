@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-01T17:15:39.356264+00:00", "ticket_id": "ESC-7CDF3EDD", "reason_category": "abusive_language", "summary": "Customer is demanding an immediate refund and threatening to report."}
+{"timestamp": "2026-09-01T17:15:42.237671+00:00", "ticket_id": "ESC-60ED71E1", "reason_category": "loop_guard", "summary": "Synthetic test: simulated tool kept signalling 'unresolved' without a final answer."}
